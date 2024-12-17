@@ -1,0 +1,3 @@
+-> BOM : Browser Object Model
+-> Window - Screen, frames, history, location, document, navigator
+-> Document - Html - head - meta, link, title body - anchor tag(attribute href), Text

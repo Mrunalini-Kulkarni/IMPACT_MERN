@@ -1,0 +1,124 @@
+/* General resets and font settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header .logo h1 {
+    font-size: 2.5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background: lavenderblush;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Destinations section */
+#destinations {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+#destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.destination-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.destination {
+    background-color: #eee;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.destination h3 {
+    margin: 10px 0;
+    font-size: 1.8rem;
+}
+.destination p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact section */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+footer p {
+    font-size: 1rem;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .destination-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .destination {
+        width: 80%;
+        margin: 20px 0;
+    }
+}
